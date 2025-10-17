@@ -32,7 +32,7 @@ public class Cliente {
         this.telefono = telefono;
         this.email = email;
         this.direccion = direccion;
-        System.out.println("✅ Datos del cliente actualizados correctamente.\n");
+        System.out.println("Datos del cliente actualizados correctamente.\n");
         mostrarDatos();
     }
 
