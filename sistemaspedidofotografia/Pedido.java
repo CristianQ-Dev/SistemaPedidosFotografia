@@ -4,7 +4,6 @@ import java.util.Date;
 import java.util.List;
 
 public class Pedido {
-    private static int contador = 1;
     private int numeroPedido;
     private Cliente cliente;
     private List<Producto> productos;
@@ -41,7 +40,7 @@ public class Pedido {
     public void confirmarPedido(int numeroTarjetaCredito) {
         this.numeroTarjetaCredito = numeroTarjetaCredito;
         this.estado = "Confirmado";
-        System.out.println("✅ Pedido confirmado. Cobro realizado con tarjeta terminada en " +
+        System.out.println(" Pedido confirmado. Cobro realizado con tarjeta terminada en " +
                 (numeroTarjetaCredito % 10000));
     }
 
